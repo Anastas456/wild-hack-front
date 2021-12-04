@@ -1,0 +1,29 @@
+a:first-of-type {
+    border: 5px solid red;
+    position: absolute;
+    width: 85px;
+    height: 140px;
+    margin-left: 195px;
+}
+
+a:nth-of-type(2) {
+border: 5px solid blue;
+    margin-left: calc(195px + 85px + 10px); /* Previous offset + width + borders */
+    position: absolute;
+    width: 100px;
+    height: 240px;
+}
+
+a:last-of-type {
+    border: 5px solid green;
+    margin-left: calc(290px + 100px + 10px); /* Previous offset + width + borders */
+    position: absolute;
+    width: 92px;
+    height: 240px;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width:400px;
+}

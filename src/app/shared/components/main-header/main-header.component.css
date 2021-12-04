@@ -1,20 +1,11 @@
 .header{
-    margin:0;
-    width:100%;
+    margin:-10px;
+    /* padding:-10px; */
+    width:101%;
     height:130px;
-    background:#006E4A;
+    /* background:#006E4A; */
+    background: #008B8B;
     display:flex;
-}
-.header_logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-.header_logo img{
-    width: 278px;
-    height: 93px;
-    
 }
 .header_menu{
     display:flex;
@@ -41,5 +32,7 @@
     border-bottom: 1px solid #FFFFFF;
 }
 .volunteer-form{
-    background: hotpink;
+    background: #2F4F4F;
+    padding:15px;
+    border-radius: 15px;
 }
