@@ -4,10 +4,36 @@
     </div> -->
     <div class="header_menu">
         <ul>
-            <li><a href=#>Главная</a></li>
-            <li><a >Как стать волонтером?</a></li>
-            <li><a>Важная информация</a></li>
-            <!-- <li><a >Стать волонтером</a></li>             СДЕЛАТЬ КНОПКОЙ  -->
+            <li>   
+                <a 
+                    [routerLink]="'/'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Главная</a>
+            </li>
+            <li>
+                <a 
+                    [routerLink]="'/about-volunteers'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Как стать волонтером?</a>
+            </li>
+            <li>   
+                <a
+                    [routerLink]="'/info'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Важная информация</a>
+            
+            </li>
+            <li>   
+                <a
+                    [routerLink]="'/volunteer-form'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                    class="volunteer-form"
+                >Стать волонтером</a>
+            </li>
         </ul>
     </div>
 </div>
